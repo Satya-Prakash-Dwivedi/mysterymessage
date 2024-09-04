@@ -1,4 +1,4 @@
-import { Html, Head, Font, Preview, Heading, Row, Section, Text } from 'react-email/src/components';
+import { Html, Head, Font, Preview, Heading, Row, Section, Text } from '@react-email/components';
 import { Roboto } from 'next/font/google';
 
 interface VerificationEmailProps{
@@ -12,12 +12,12 @@ return (
         <Head>
             <title>Verification Code</title>
             <Font 
-            fontfamily = "Roboto"
-            fallbackfontfamily = "Verdana"
-            webfont = {{
-                url : 'https//fonts.gstatic.com/s/roboto/v27/KFOmCnquEu92Fr1Mu4mxKKTU1KG.woff2',
+            fontFamily = "Roboto"
+            fallbackFontFamily = "Verdana"
+            webFont={{
+                url : 'https://fonts.gstatic.com/s/roboto/v27/KFOmCnquEu92Fr1Mu4mxKKTU1KG.woff2',
             }}
-            fontWeigh = {400}
+            fontWeight = {400}
             fontStyle = "normal"
             ></Font>
         </Head>
